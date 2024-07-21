@@ -1,2 +1,4 @@
-# PORTFOLIO
-This repository contain my portfolio website. this website is basicall ,  build with basic fronted technology such as HTML , CSS , JS .
+# Front-end
+This is my front-end repository which contains the small-basic projects related to frontend technology.
+<br>
+Author - Pratiksha Bhokare
