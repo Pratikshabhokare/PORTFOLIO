@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100;
+}
+#main{
+    height:100%;
+    width: 100%;
+}  
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 45px 65px;
+    
+}
+#nav-part1{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+#nav-part2{
+    display:flex;
+    justify-content: space-between;
+    width :40%;
+    
+}
+
+#nav h3{
+    font-size: 40px;
+    font-weight: 400;
+}
+#nav h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#nav h4{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#content{
+    margin-top: 60px;
+    padding :40px 65px;
+   
+}
+#content h3{
+    font-size: 40px;
+     font-weight: 600;
+}
+
+#content h1{
+    font-size: 200px;
+    line-height: 190px;
+    letter-spacing: -9px;
+    font-weight: 500;
+    margin: 40px 40px;
+    padding: 30px 20px;
+    word-spacing: 15px;
+}
+
+#case{
+    padding:40px 65px;
+    margin-top:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#case h4{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+#case h5{
+    font-size: 26px;
+    font-weight: 500;
+}
+#right{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#line{
+    height: 2px;
+    width: 150px;
+    background-color: black;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 90px;
+}
+.ele{
+    width: 50%;
+}
+
+.ele-img{
+    height: 800px;
+    width: 100%;
+    background-color: rgb(217, 171, 236);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    
+}
+#img1{
+    background-image: url(https://media.istockphoto.com/id/530399357/vector/abstract-dimensional-polygonal-geometric-background-for-modern-design.jpg?s=612x612&w=0&k=20&c=z7uv_1Wm6u_WTGtW38VG0f6luzOBngbucRv0e6KyrdI=);
+}
+#img2{
+    background-image: url(https://media.istockphoto.com/id/1256675667/vector/my-smart-home-tablet-interface-vector-template-mobile-app-page-night-mode-design-layout.jpg?s=612x612&w=0&k=20&c=i0bh2mE0mVzqkrp4RhDUM0skOB7fS2F6HE5dwC0l_W8=);
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.bottom i{
+    padding: 20px 30px;
+    font-size: 25px;
+    border: 2px solid #000;
+    background-color: aliceblue;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.bottom i:hover{
+    background-color: black;
+    color: white;
+}
+
+.bottom h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.bottom h4{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+    color: rgb(100, 99, 99);
+}
+  
